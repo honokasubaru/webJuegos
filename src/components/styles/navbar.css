@@ -1,0 +1,60 @@
+.Navbar {
+  width: 100%;
+  padding: 0.8rem 0;
+  background-color: #101012;
+}
+.Navbar__logoTriangle {
+  position: absolute;
+  margin: auto;
+  top: 2.2rem;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 50px 100px 0 100px;
+  border-color: #101012 transparent transparent transparent;
+}
+.Navbar__logoContainer {
+  background-color: #00000000;
+}
+.Navbar__logoContainer > img {
+  position: absolute;
+  margin: auto;
+  width: 5rem;
+  top: -0.2rem;
+  left: 0;
+  right: 0;
+}
+.Btn__gripLines,
+.Btn__navLink,
+.Btn__user {
+  background: none;
+  border-style: none;
+  color: #ffffff;
+}
+
+.Btn__gripLines {
+  transform: scale(1.2, 0.8);
+}
+.Btn__navLink {
+  font-size: 0.8rem;
+}
+.Social__links {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+}
+.Social__links:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Social__logo {
+  transform: scale(1.5, 1.5);
+}
+
+.User__avatar {
+  width: 1.8rem;
+}
